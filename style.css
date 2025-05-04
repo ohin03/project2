@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+
+}
+a{
+    text-decoration: none;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2f2e41;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1;
+    background-color: #ddd
+    ;
+}
+.searchbox{
+    position: fixed;
+    box-sizing: border-box;
+    top: 50px;
+    right:90px;
+    background-color: #FFFF;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.searchbox input{
+    border: none;
+    width: 120px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: popins;
+    letter-spacing: 1px;
+    color: #1f1f1f;
+}
+.searchbox i{
+    padding: 10px;
+
+}
+.img1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+}
+.img1 img{
+    height: 400px;
+}
+.img1button{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-80%, -80%);
+}
+.img1button h1{
+    font-size: 35px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    color: #3d3d4a;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.img1button span{
+    color: #7A72FF;
+}
+.img1button button{
+    background-color: #1f1f1f;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 7px;
+    
+}
+button:hover{
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+    transition: all 0.5s;
+}
+.icons{
+    position: fixed;
+  display: flex;
+  flex-direction: column;
+    top: 50%;
+    left: 30px;
+    background-color: #FFFF;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+  
+}
+.icons a{
+    font-size: 20px;
+    padding: 10px;
+    color: #2f2e41;
+}
+.icons a:hover .fa-facebook{
+    color: blue;
+}
+.icons a:hover .fa-facebook-messenger{
+    color: brown;
+}
+.icons a:hover .fa-square-whatsapp{
+    color: green;
+}
+.icons a:hover .fa-twitter{
+    color: aqua
+}
+
+.poductsection{
+    width: 85%;
+    background-color: #FFFF;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    margin: 30px auto;
+    padding: 40px 20px;
+    margin-top: -60px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: brown;
+}
+span{
+    color: #7A72FF;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 20px;
+    
+}
+.productbox{
+    width: 150px;
+    height: 300px;
+}
+.about{
+    display: flex;
+    
+    width: 85%;
+    margin: 50px auto;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutbox{
+    width: 40%;
+}
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutbox h1{
+    color: darkmagenta;
+    font-weight: 700;
+    font-size: 50px;
+}
+.aboutbox h4{
+    color: cadetblue;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutbox p{
+    font-size: 15x;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+}
+.lastpart{
+    width: 80%;
+    background-color: rgb(42, 95, 74);
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    padding: 40px 20px ;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.lastpart h1{
+    text-align: center;
+    color: rgb(169, 14, 177);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px;
+    letter-spacing: 2px;
+}
+.lastpart span{
+    color: white;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 20px;
+
+}
+.service1{
+    padding: 20px;
+}
+.service2{
+    padding: 20px;
+}
+.service5{
+    padding: 30px;
+}
+.service8{
+    padding: 20px;
+}
+.service7{
+    padding: 30px;
+}
+.add p{
+    color: wheat;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.notification{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+.notification h2{
+    color: #3d3d4a;
+    font-size: 30px;
+}
+.notificationinput{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(65, 49, 49, 0.974);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.notificationinput  .in{
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+
+}
+.notificationinput  .on{
+    width: 20%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/*Mobile views*/
+@media(max-width:768px){
+    .logo a{
+        font-size: 22px;
+    }
+    .logo{
+        top: 40px;
+        left: 25px;
+    }
+    .searchbox{
+        top: 39px;
+        right: 30px;
+        width: 128px;
+        height: 28px;
+    }
+    .searchbox input{
+        width: 85px;
+    }
+    .img1{
+        top: 30%;
+        left: 18%;
+    }
+    .img1 img{
+        height: 163Px;
+    }
+    .img1button{
+        top: 32%;
+        left: 96%;
+    }
+    .img1button h1{
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px 10px;
+    }
+    .icons a{
+        font-size: 12px;
+        padding: 3px;
+    }
+    .icons{
+        top: 20%;
+        left: 0;
+        padding: 5px;
+    }
+    button:hover{
+        padding: 8px;
+    }
+    .poductsection{
+        margin-top: -480px;
+        padding: 10px 10px;
+    }
+    .aboutbox h1{
+        font-size: 24px;
+    }
+    .aboutbox h4{
+        font-size: 16px;
+    }
+    .aboutbox p{
+        letter-spacing: -0.5px;
+    }
+    .lastpart{
+        width: 90%;
+        padding: 30px 0px;
+    }
+    .lastpart h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .service{
+        margin: 15px -14px;
+    }
+    .notificationinput{
+        width: 200px;
+        height: 45px;
+
+    }
+    .notification h2{
+        font-size: 20px;
+    }
+
+
+}
