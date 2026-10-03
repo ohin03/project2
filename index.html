@@ -1,145 +1,1032 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emad Telecom</title>
+
+    <meta name="description" content="Emad Telecom - Mobile phones, accessories and professional mobile servicing in Feni.">
+
+    <title>Emad Telecom | Mobile & Service</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar-wrap">
+    <nav class="navbar-custom">
+
+        <a href="#home" class="brand">
+            <span class="brand-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </span>
+
+            <span>
+                EMAD <b>TELECOM</b>
+            </span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#products">Mobiles</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+
+            <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="#products" class="nav-buy">
+                Shop Now
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-bg-circle circle-one"></div>
+    <div class="hero-bg-circle circle-two"></div>
+
     <div class="container">
-        <div class="logo">
-            <a href="#">EMAD TELECOM</a>
+
+        <div class="row align-items-center hero-row">
+
+            <!-- Hero Content -->
+            <div class="col-lg-6 order-2 order-lg-1">
+
+                <div class="hero-content reveal">
+
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        Trusted Mobile Store
+                    </div>
+
+                    <h1>
+                        Your Trusted
+                        <span>Mobile</span>
+                        Partner
+                    </h1>
+
+                    <p>
+                        Discover the latest smartphones, accessories and
+                        professional mobile servicing — all in one place.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#products" class="primary-btn">
+                            Explore Mobiles
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#services" class="secondary-btn">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            Our Services
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>50+</strong>
+                            <span>Products</span>
+                        </div>
+
+                        <div>
+                            <strong>10+</strong>
+                            <span>Services</span>
+                        </div>
+
+                        <div>
+                            <strong>5★</strong>
+                            <span>Support</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="col-lg-6 order-1 order-lg-2">
+
+                <div class="hero-image reveal">
+
+                    <div class="floating-card card-one">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <strong>Trusted</strong>
+                            <small>Service</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fa-solid fa-bolt"></i>
+                        <div>
+                            <strong>Fast</strong>
+                            <small>Delivery</small>
+                        </div>
+                    </div>
+
+                    <div class="phone-glow"></div>
+
+                    <img
+                        src="mblimg1.png"
+                        alt="Mobile phone"
+                    >
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="searchbox">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" placeholder="search">
-        </div>
-        <div class="img1">
-            <img src="mblimg1.png">
-        </div>
-        <div class="img1button">
-            <h1>MOB<span>IL</span>E and SERVI<span>CE</span></h1>
-            <button>BUY NOW</button>
-            <button>Take mobile service</button>
-        </div>
-        <div class="icons">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
-            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </div>
+
     </div>
-    <section class="poductsection">
-        <h3>Latest <span>brand</span> mobiles</h3>
-        <div class="product">
-        <div class="productbox">
-            <img src="s25.png">
-              <p>SAMSUNG</p>
-            <a href="#">Price:119,000 TK</a>
-             
-        </div>
-        <div class="productbox1">
-            <img src="redmi1.png">
-              <p>redmi</p>
-            <a href="#">Price:19,000 TK</a>
-            
-        </div>
-        <div class="productbox2">
-            <img src="vivo.png">
-              <p>Vivo</p>
-            <a href="#">Price:219,000 TK</a>
-             
-        </div>
-        <div class="productbox3">
-            <img src="vivo1.png">
-              <p>Vivo</p>
-            <a href="#">Price:29,000 TK</a>
-             
-        </div>
-        <div class="productbox4">
-            <img src="redmi2.png">
-              <p>Redmi</p>
-            <a href="#">Price:29,000 TK</a>
-        </div>
-        <div class="productbox5">
-            <img src="oppo.png">
-              <p>Oppo</p>
-            <a href="#">Price:18,000 TK</a>
-        </div>
-        <div class="productbox6">
-            <img src="redmi.png">
-              <p>redmi</p>
-            <a href="#">Price:22,000 TK</a>
-        </div>
-        <div class="productbox7">
-            <img src="itel.png">
-              <p>itel</p>
-            <a href="#">Price:18,000 TK</a>
-        </div>
-        <div class="productbox8">
-            <img src="itel1.png">
-              <p>itel</p>
-            <a href="#">Price:1500 TK</a>
-        </div>
-        <div class="productbox9">
-            <img src="btm.png">
-              <p>Oppo</p>
-            <a href="#">Price:1700 TK</a>
-        </div>
-        </div>
-    </section>
-    <section class="about">
-      <div class="aboutbox">
-        <h1>About company</h1>
-        <h4>Small E-commerce platfrom 2025 new arrivals mini messege <span> buy now and take servic</span></h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam eaque, minima, nobis cumque vel reiciendis officiis expedita dignissimos culpa dolor, eveniet non. Dicta nihil impedit nemo natus similique eius iure?</p>
 
-      </div>
-      <div class="aboutbox">
-        <img src="shop.png">
-      </div>
-    </section>
-    <section class="lastpart">
-      <h1>S<span>er</span>vice of mobile</h1>
-      <div class="service">
-        <div class="service1">
-          <img src="service1.png">
-        </div>
-        <div class="service2">
-          <img src="service2.png">
-        </div>
-        <div class="service3">
-          <img src="service3.png">
-        </div>
-      
-        <div class="service5">
-          <img src="service5.png">
-        </div>
-        <div class="service8">
-          <img src="service8.png">
-        </div>
-        <div class="service7">
-          <img src="service7.png">
-        </div>
-        <div class="add">
-          <p>In Emad telecom, where sevice man done a special course about mobile sevice fom Dhaka. This shop location in Feni, Mohipal. Every kinnd's of mobile they can be woked for instance: none can deny the fact that display change, IC change, charging and mick change. Not only limitation on it but also they can be worked software. </p>
-        </div>
-        
-
-      </div>
-
-    </section>
-    <section class="notification">
-      <h2>Subcibe for new products notification</h2>
-      <div class="notificationinput">
-        <input type="email" class="in" placeholder="enter your email">
-     <input type="submit" class="on" value="send">
-      </div>
+</section>
 
 
-    </section>
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+    <div class="container">
+
+        <div class="search-wrapper">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="search"
+                id="productSearch"
+                placeholder="Search mobile products..."
+            >
+
+            <span class="search-hint">
+                <i class="fa-solid fa-keyboard"></i>
+                Search
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products-section section-padding" id="products">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <div>
+                <span class="section-label">
+                    <i class="fa-solid fa-fire"></i>
+                    Latest Collection
+                </span>
+
+                <h2>
+                    Latest <span>Brand</span> Mobiles
+                </h2>
+
+                <p>
+                    Explore our collection of popular smartphones and devices.
+                </p>
+            </div>
+
+            <a href="#products" class="view-all">
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="row g-4" id="productGrid">
+
+            <!-- Product 1 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="samsung">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <span class="product-tag">Featured</span>
+                        <img src="s25.png" alt="Samsung Mobile">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">SAMSUNG</span>
+                        <h3>Samsung Galaxy S25</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳119,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 2 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="redmi">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <span class="product-tag">Popular</span>
+                        <img src="redmi1.png" alt="Redmi Mobile">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">REDMI</span>
+                        <h3>Redmi Smartphone</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳19,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 3 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="vivo">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <span class="product-tag">New</span>
+                        <img src="vivo.png" alt="Vivo Mobile">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">VIVO</span>
+                        <h3>Vivo Smartphone</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳21,900</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 4 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="vivo">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="vivo1.png" alt="Vivo Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">VIVO</span>
+                        <h3>Vivo Series Phone</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳29,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 5 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="redmi">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="redmi2.png" alt="Redmi Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">REDMI</span>
+                        <h3>Redmi Series</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳29,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 6 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="oppo">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="oppo.png" alt="Oppo Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">OPPO</span>
+                        <h3>Oppo Smartphone</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳18,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 7 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="redmi">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="redmi.png" alt="Redmi Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">REDMI</span>
+                        <h3>Redmi Smartphone</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳22,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 8 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="itel">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="itel.png" alt="Itel Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">ITEL</span>
+                        <h3>Itel Mobile</h3>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="product-bottom">
+                            <strong>৳18,000</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 9 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="itel">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="itel1.png" alt="Itel Phone">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">ITEL</span>
+                        <h3>Itel Feature Phone</h3>
+
+                        <div class="product-bottom">
+                            <strong>৳1,500</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Product 10 -->
+            <div class="col-6 col-md-4 col-lg-3 product-item" data-name="oppo">
+                <div class="product-card reveal">
+
+                    <div class="product-image">
+                        <img src="btm.png" alt="Oppo Device">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="brand-name">OPPO</span>
+                        <h3>Oppo Feature Device</h3>
+
+                        <div class="product-bottom">
+                            <strong>৳1,700</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="no-result" id="noResult">
+            <i class="fa-solid fa-box-open"></i>
+            <h3>No products found</h3>
+            <p>Try searching for Samsung, Redmi, Vivo, Oppo or Itel.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about-section section-padding" id="about">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <div class="about-image reveal">
+
+                    <div class="image-frame"></div>
+
+                    <img
+                        src="shop.png"
+                        alt="Emad Telecom Shop"
+                    >
+
+                    <div class="experience-card">
+                        <strong>EMAD</strong>
+                        <span>TELECOM</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="about-content reveal">
+
+                    <span class="section-label">
+                        <i class="fa-solid fa-circle-info"></i>
+                        About Us
+                    </span>
+
+                    <h2>
+                        More Than A
+                        <span>Mobile Shop.</span>
+                    </h2>
+
+                    <p>
+                        Emad Telecom is a local mobile business focused on
+                        providing smartphones, accessories and professional
+                        mobile servicing for customers.
+                    </p>
+
+                    <p>
+                        From display replacement and charging problems to
+                        software-related issues, our goal is to provide
+                        reliable service with customer satisfaction.
+                    </p>
+
+                    <div class="about-features">
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Quality Products</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Professional Service</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Customer Support</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#services" class="primary-btn">
+                        Discover Our Services
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services-section section-padding" id="services">
+
+    <div class="container">
+
+        <div class="section-heading centered reveal">
+
+            <span class="section-label">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                Professional Support
+            </span>
+
+            <h2>
+                Mobile <span>Services</span>
+            </h2>
+
+            <p>
+                Professional solutions for your mobile devices.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 service-grid">
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service1.png" alt="Mobile Service">
+
+                    <div class="service-overlay">
+                        <span>01</span>
+                        <h3>Display Change</h3>
+                        <p>Professional display replacement service.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service2.png" alt="Mobile Service">
+
+                    <div class="service-overlay">
+                        <span>02</span>
+                        <h3>IC Repair</h3>
+                        <p>Advanced mobile IC related solutions.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service3.png" alt="Mobile Service">
+
+                    <div class="service-overlay">
+                        <span>03</span>
+                        <h3>Charging Repair</h3>
+                        <p>Charging port and power related repairs.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service5.png" alt="Mobile Service">
+
+                    <div class="service-overlay">
+                        <span>04</span>
+                        <h3>Microphone Repair</h3>
+                        <p>Clear voice and microphone solutions.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service8.png" alt="Software Service">
+
+                    <div class="service-overlay">
+                        <span>05</span>
+                        <h3>Software Service</h3>
+                        <p>Software troubleshooting and support.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4">
+                <div class="service-card reveal">
+
+                    <img src="service7.png" alt="Mobile Repair">
+
+                    <div class="service-overlay">
+                        <span>06</span>
+                        <h3>Mobile Repair</h3>
+                        <p>Reliable solutions for various mobile issues.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="service-description reveal">
+
+            <div class="service-description-icon">
+                <i class="fa-solid fa-user-gear"></i>
+            </div>
+
+            <div>
+                <h3>Professional Mobile Servicing</h3>
+
+                <p>
+                    Our service team provides mobile repair and software
+                    solutions with practical experience and specialized
+                    training. Visit Emad Telecom at Mohipal, Feni for
+                    mobile servicing and support.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section" id="contact">
+
+    <div class="container">
+
+        <div class="cta-box reveal">
+
+            <div class="cta-content">
+
+                <span class="section-label">
+                    <i class="fa-solid fa-headset"></i>
+                    Need Help?
+                </span>
+
+                <h2>
+                    Looking For A
+                    <span>Mobile Solution?</span>
+                </h2>
+
+                <p>
+                    Visit Emad Telecom for smartphones, accessories and
+                    professional mobile servicing.
+                </p>
+
+                <a href="tel:+880000000000" class="primary-btn">
+                    Contact Us
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+            </div>
+
+            <div class="cta-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter section-padding">
+
+    <div class="container">
+
+        <div class="newsletter-box reveal">
+
+            <div class="newsletter-icon">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+            <div class="newsletter-content">
+
+                <span class="section-label">
+                    Stay Updated
+                </span>
+
+                <h2>
+                    Get New Product
+                    <span>Notifications</span>
+                </h2>
+
+                <p>
+                    Subscribe to receive updates about new products and offers.
+                </p>
+
+            </div>
+
+            <form class="newsletter-form" id="newsletterForm">
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="brand">
+                    <span class="brand-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </span>
+
+                    EMAD <b>TELECOM</b>
+                </a>
+
+                <p>
+                    Your trusted destination for mobile phones,
+                    accessories and professional servicing.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#products">Mobiles</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Services</h3>
+
+                <a href="#services">Display Change</a>
+                <a href="#services">IC Repair</a>
+                <a href="#services">Charging Repair</a>
+                <a href="#services">Software Service</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Mohipal, Feni, Bangladesh
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    Contact Store
+                </p>
+
+                <p>
+                    <i class="fa-regular fa-clock"></i>
+                    Open Daily
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Emad Telecom. All Rights Reserved.
+            </p>
+
+            <p>
+                Built with <i class="fa-solid fa-heart"></i>
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Scroll Top -->
+
+<button class="scroll-top" id="scrollTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<!-- Toast -->
+
+<div class="toast-message" id="toastMessage">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastText">Subscribed successfully!</span>
+</div>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
